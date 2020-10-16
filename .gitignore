@@ -1,2 +1,9 @@
+<<<<<<< HEAD
 /.idea/*
 /.vscode/*
+=======
+out/
+.idea/
+.vscode/
+/practice.iml
+>>>>>>> 560d120671fc5174b2c2a82728e2c5f63022296e
