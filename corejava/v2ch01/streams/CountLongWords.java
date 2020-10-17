@@ -4,7 +4,8 @@ import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.Arrays;
-import java.util.*;
+import java.util.stream.Stream;
+
 
 public class CountLongWords
 {
@@ -13,16 +14,20 @@ public class CountLongWords
         String contents = new String(Files.readAllBytes(
                 Paths.get("D:\\corejava\\gutenberg\\alice30.txt")), StandardCharsets.UTF_8
         );
-        List<String> words = Arrays.asList(contents.split("\\PL+"));
+        // List<String> words = Arrays.asList(contents.split("\\PL+"));
+        Stream<String> words = Stream.of(contents.split("\\PL+"));
+
 
         long count = 0;
-        for (String w : words) if (w.length() > 12) count++;
-        System.out.println(count);
-
-        count = words.stream().filter(w -> w.length() > 12).count();
-        System.out.println(count);
-
-        count = words.parallelStream().filter(w -> w.length() > 12).count();
+//        for (String w : words) if (w.length() > 12) count++;
+//        System.out.println(count);
+//
+//        count = words.stream().filter(w -> w.length() > 12).count();
+//        System.out.println(count);
+//
+//        count = words.parallelStream().filter(w -> w.length() > 12).count();
+//        System.out.println(count);
+        count = words.filter(w -> w.length() > 12).count();
         System.out.println(count);
     }
 }
