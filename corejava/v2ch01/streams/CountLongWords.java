@@ -18,7 +18,7 @@ public class CountLongWords
         Stream<String> words = Stream.of(contents.split("\\PL+"));
 
 
-        long count = 0;
+        long count;
 //        for (String w : words) if (w.length() > 12) count++;
 //        System.out.println(count);
 //
