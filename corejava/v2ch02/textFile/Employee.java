@@ -37,6 +37,6 @@ public class Employee
 
    public String toString()
    {
-      return getClass().getName() + "[name=" + name + ",salary=" + salary + ",hireDay=" + hireDay + "]";
+      return getClass().getName() + " [name=" + name + ",salary=" + salary + ",hireDay=" + hireDay + "]";
    }
 }
