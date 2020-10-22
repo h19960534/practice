@@ -1,5 +1,4 @@
 package v2ch02.textFile;
-
 import java.time.*;
 
 public class Employee

@@ -12,6 +12,10 @@ public class FibonacciTest
 }
 
 class Fibonacci extends RecursiveTask<Integer> {
+    /**
+     *
+     */
+    private static final long serialVersionUID = 1L;
     final int n;
     Fibonacci(int n) { this.n = n; }
 
