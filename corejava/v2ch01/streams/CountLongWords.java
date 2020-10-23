@@ -3,7 +3,7 @@ package v2ch01.streams;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
-import java.util.Arrays;
+//import java.util.Arrays;
 import java.util.stream.Stream;
 
 
