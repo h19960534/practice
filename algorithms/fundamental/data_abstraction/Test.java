@@ -1,4 +1,4 @@
-package fundamental;
+package fundamental.data_abstraction;
 
 public class Test
 {
