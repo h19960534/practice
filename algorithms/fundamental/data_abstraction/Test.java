@@ -1,6 +1,6 @@
 package fundamental.data_abstraction;
 
-import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.introcs.StdOut;
 
 import java.util.Locale;
 
