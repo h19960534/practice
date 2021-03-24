@@ -9,7 +9,7 @@ public class MySQLDemo {
     //static final String DB_URL = "jdbc:mysql://localhost:3306/world";
 
     // MySQL 8.0 以上版本 - JDBC 驱动名及数据库 URL
-    static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
+    //static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
     static final String DB_URL = "jdbc:mysql://localhost:3306/world"
            + "?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC";
 
@@ -22,7 +22,7 @@ public class MySQLDemo {
         Statement stmt = null;
         try{
             // 注册 JDBC 驱动
-            Class.forName(JDBC_DRIVER);
+            //Class.forName(JDBC_DRIVER);
 
             // 打开链接
             System.out.println("连接数据库...");
@@ -44,7 +44,7 @@ public class MySQLDemo {
 
                 // 输出数据
                 System.out.print("ID: " + id);
-                System.out.print(", 国家名称: " + name);
+                System.out.printf(", %-28s", "国家名称: " + name);
                 System.out.print(", 国家人口: " + population);
                 System.out.print("\n");
             }
