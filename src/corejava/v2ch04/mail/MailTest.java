@@ -1,4 +1,4 @@
-package v2ch04.mail;
+package corejava.v2ch04.mail;
 
 import java.io.*;
 import java.nio.charset.*;
