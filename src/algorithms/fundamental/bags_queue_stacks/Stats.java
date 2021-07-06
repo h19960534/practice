@@ -1,14 +1,13 @@
-package fundamental.bags_queue_stacks;
+package algorithms.fundamental.bags_queue_stacks;
 
 import edu.princeton.cs.algs4.Bag;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
-public class Stats
-{
+public class Stats {
     public static void main(String[] args)
     {
-        Bag<Double> numbers = new Bag<Double>();
+        Bag<Double> numbers = new Bag<>();
 
         while (!StdIn.isEmpty())
             numbers.add(StdIn.readDouble());
