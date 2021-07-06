@@ -10,10 +10,12 @@ import java.util.Properties;
 public class ConnectionTest {
     @Test
     public void testConnection1() throws SQLException {
-        Driver driver = null;
+        Driver driver = new com.mysql.cj.jdbc.Driver();
 
-        String url = null;
-        Properties info = null;
+        String url = "jdbc:mysql://localhost:3306/world";
+        Properties info = new Properties();
+        info.setProperty("user","root");
+        info.setProperty("password","1519348454");
 
         Connection conn = driver.connect(url, info);
 
