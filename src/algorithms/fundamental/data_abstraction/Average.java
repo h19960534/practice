@@ -1,4 +1,4 @@
-package fundamental.data_abstraction;
+package algorithms.fundamental.data_abstraction;
 
 import edu.princeton.cs.introcs.StdIn;
 import edu.princeton.cs.introcs.StdOut;
