@@ -11,7 +11,10 @@
     <title>$Title$</title>
   </head>
   <body>
-  <form action="http://localhost:8080//TomcatWeb/test3" method="post">
+  <form action="http://localhost:8080//TomcatWeb/test3" method="get">
+    用户名: <input type="text" name="username"><br/>
+    密码: <input type="text" name="password"><br/>
+    兴趣爱好: <input type="text" name="hobby"><br/>
     <input type="submit">
   </form>
   <p>这是TomcatWeb</p>
