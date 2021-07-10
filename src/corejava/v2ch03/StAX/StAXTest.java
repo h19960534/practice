@@ -1,4 +1,4 @@
-package v2ch03.StAX;
+package corejava.v2ch03.StAX;
 
 import java.io.*;
 import java.net.*;
