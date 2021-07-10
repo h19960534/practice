@@ -9,9 +9,19 @@
         <servlet-class>com.raincoat.servlet.ServletTest</servlet-class>
     </servlet>
 
+    <servlet>
+    <servlet-name>HttpServletTest</servlet-name>
+    <servlet-class>com.raincoat.servlet.HttpServletTest</servlet-class>
+    </servlet>
+
     <servlet-mapping>
         <servlet-name>ServletTest</servlet-name>
         <url-pattern>/hello</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+    <servlet-name>HttpServletTest</servlet-name>
+    <url-pattern>/test</url-pattern>
     </servlet-mapping>
 
 </web-app>

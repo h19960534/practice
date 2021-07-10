@@ -11,7 +11,10 @@
     <title>$Title$</title>
   </head>
   <body>
+  <form action="http://localhost:8080//TomcatWeb/test3" method="post">
+    <input type="submit">
+  </form>
   <p>这是TomcatWeb</p>
-  nmsl
+  <p>nmsl</p>
   </body>
 </html>
