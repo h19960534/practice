@@ -3,15 +3,12 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
-    <listener>
-        <listener-class>ListenerTest</listener-class>
-    </listener>
     <servlet>
-        <servlet-name>servlethtml</servlet-name>
-        <servlet-class>com.raincoat.servlet.ServletHtml</servlet-class>
+        <servlet-name>UploadHandlerServlet</servlet-name>
+        <servlet-class>com.raincoat.jsp.comraincoatjspUploadHandlerServlet</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>servlethtml</servlet-name>
-        <url-pattern>/servlethtml</url-pattern>
+        <servlet-name>UploadHandlerServlet</servlet-name>
+        <url-pattern>/uploadHandler</url-pattern>
     </servlet-mapping>
 </web-app>
