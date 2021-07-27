@@ -12,6 +12,9 @@
         <sourceRoots />
       </configuration>
     </facet>
+    <facet type="Spring" name="Spring">
+      <configuration />
+    </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
@@ -20,26 +23,15 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" exported="" scope="PROVIDED" name="Tomcat 8.5.69" level="application_server_libraries" />
-    <orderEntry type="module-library" exported="">
+    <orderEntry type="library" exported="" name="springMVC" level="project" />
+    <orderEntry type="library" exported="" name="TomcatSpringMVC" level="application_server_libraries" />
+    <orderEntry type="module-library" exported="" scope="PROVIDED">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java_jar/taglibs-standard-impl-1.2.5.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../Java_jar/commons-logging-1.2/commons-logging-1.2.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../Java_jar/taglibs-standard-spec-1.2.5.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES>
-          <root url="jar://$MODULE_DIR$/../../Java_jar/taglibs-standard-spec-1.2.5.jar!/" />
-          <root url="jar://$USER_HOME$/.ideaLibSources/taglibs-standard-spec-1.2.5-sources.jar!/" />
-        </SOURCES>
       </library>
     </orderEntry>
   </component>
